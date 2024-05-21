@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Involve", sans-serif;
-    src: url("/fonts/Involve-Regular.ttf");
+    font-family: "Involve";
+    src: url("Involve-Regular.ttf");
 }
 
 body {
