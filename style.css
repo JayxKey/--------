@@ -110,7 +110,7 @@ p {
 
 .main-wrapper h2 {
     font-size:80px;
-    line-height: 80px;
+    line-height: 90px;
     margin: 0;
     margin-bottom: 36px;
     font-weight: 700;
@@ -122,8 +122,9 @@ p {
 }
 
 .main-wrapper p {
+    margin-top: 50px;
     font-size: 22px;
-    line-height: 28px;
+    line-height: 30px;
 
     @media screen and (max-width: 1040px){
         font-size: 17px;
@@ -144,7 +145,7 @@ p {
 }
 
 .main-wrapper button {
-    margin-top: 38px;
+    margin-top: 90px;
     width: 506px;
     height: 90px;
     font-size: 32px;
@@ -157,9 +158,9 @@ p {
     line-height: 15px;
 
     @media screen and (max-width: 1040px){
-        width: 200px;
+        width: 250px;
         height: 50px;
-        font-size: 18px;
+        font-size: 15px;
         padding: 0;
         margin-top: 20px;
     }
@@ -215,7 +216,7 @@ p {
     width: 554px;
 
     @media screen and (max-width: 1040px){
-        width: 250px;
+        width: 285px;
     }
 }
 
@@ -234,7 +235,7 @@ p {
 
     @media screen and (max-width: 1040px){
         height: 150px;
-        font-size: 15px;
+        font-size: 18px;
         padding-top: 50px;
     }
 }
@@ -358,10 +359,6 @@ p {
     width: 100%;
     gap: 32px;
     margin-right: 32px;
-
-    @media screen and (max-width: 1040px){
-        gap: 15px;
-    }
 }
 
 .card {
@@ -373,7 +370,7 @@ p {
     box-shadow: 0px 25px 50px 0px #9BA1A733;
 
     @media screen and (max-width: 1040px){
-        width: 400px;
+        width: 430px;
         height: 450px;
     }
 }
@@ -649,7 +646,7 @@ input[type="radio"] {
 
 .brands-item img {
     @media screen and (max-width: 1040px){
-      width: 50%;
+      width: 40%;
     }
 }
 
@@ -682,6 +679,7 @@ input[type="radio"] {
     @media screen and (max-width: 1040px){
         font-size: 30px;
         margin-bottom: 20px;
+        margin-left: 20px;
     }
 }
 
